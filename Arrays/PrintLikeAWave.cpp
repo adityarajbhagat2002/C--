@@ -18,5 +18,5 @@ vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
 
     return ans;
 
-
 }
+
