@@ -1,8 +1,7 @@
 /* formulas for module
 (a+b)%m  =a % m + b %m
-a % m -  b % m  = (a-b) %m 
+a % m -  b % m  = (a-b) %m
 a % m *  b % m  = (a*b) %m
-
 
 Fast Exponentation
 */
@@ -21,6 +20,4 @@ int modularExponentiation(int x, int n, int m) {
 		n=n>>1;
 	}
 	return res;
-
-
 }
