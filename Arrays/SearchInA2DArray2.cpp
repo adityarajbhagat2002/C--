@@ -7,7 +7,7 @@ public:
         int col = matrix[0].size();
 
         int rowIndex = 0;
-        int colIndex = col - 1;
+        int colIndex = col - 1; 
 
         while (rowIndex < row && colIndex >= 0)
         {
