@@ -21,3 +21,4 @@ int modularExponentiation(int x, int n, int m) {
 	}
 	return res;
 }
+
