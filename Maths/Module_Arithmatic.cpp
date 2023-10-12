@@ -29,7 +29,8 @@ using namespace std;
 int main(){
     int arr[10]={2,3,4,5};
     char ch[10]="abcde";
-    
+
+
     int *ptr = &arr[0];
     cout<<ptr<<endl;
 cout<<"--------------------------"<<endl;
@@ -39,3 +40,9 @@ cout<<"--------------------------"<<endl;
     return 0;
 
 }
+
+
+
+
+
+
