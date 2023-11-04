@@ -49,7 +49,6 @@ int main()
 {
     int arr[] = {11, 8, 9, 2, 34};
     int size = sizeof(arr) / sizeof(arr[0]);
-
     cout << "Original Array " << endl;
     printArray(arr, size);
     InsertionSort(arr, size);

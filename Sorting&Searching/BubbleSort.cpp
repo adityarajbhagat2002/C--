@@ -3,11 +3,8 @@ using namespace std;
 
 
 // In this we run two loops comparing j and j+1 element if j is greater then swap both
-// after each round the greatest element is in place the (n-i-1) is for running only the 
+// after each round the greatest element is in place the (n-i-1) is for running only the
 // rounds as each time number of rounds decreses
-
-
-
 
 void swap(int &a, int &b)
 {
@@ -38,8 +35,8 @@ void BubbleSort(int arr[], int size)
         }
     }
 
-
 }
+
 
 int main()
 {
