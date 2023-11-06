@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//  in selection sort we keep the pointer at one point and find the minimum 
-//  element in the rest of the array considering the the first elemet as smallest 
-// if we find any small element then we swap and keep doint it 
+//in selection sort we keep the pointer at one point and find the minimum 
+//element in the rest of the array considering the the first elemet as smallest 
+//if we find any small element then we swap and keep doint it 
 
 void swap(int& a, int& b) {
     int temp = a;
